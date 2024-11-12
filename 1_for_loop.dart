@@ -10,7 +10,6 @@ void main(){
   int SOMA = 0;
 
   for (int k = 0; k < INDICE; k++){
-    k += k;
     SOMA += k;
     print(SOMA);
   }
